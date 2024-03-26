@@ -13,6 +13,7 @@ height: 75px;
 main {
     height: calc(100vh - 75px);
     background-color: black;
+    overflow: auto;
 }
 
 /*classi di layout*/
@@ -28,9 +29,7 @@ main {
 /*classi colonne*/
 .col-14 {
 width:calc(100% / 7);
-background-color: red;
-height: 100px;
-border: 1px solid black;
+
 }
 
 .col-25 {
@@ -45,4 +44,11 @@ border: 1px solid black;
     height: 30px;
     background-color: blue;
     border: 1px solid black;
+}
+
+/* classi di utility*/
+
+img {
+    width: 100%;
+    padding: 5px 5px;
 }

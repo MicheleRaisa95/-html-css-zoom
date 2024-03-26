@@ -34,16 +34,12 @@ width:calc(100% / 7);
 
 .col-25 {
     width: 25%;
-    height: 30px;
-    background-color: blue;
-    border: 1px solid black;
+   
 }
 
 .col-50 {
     width: 50%;
-    height: 30px;
-    background-color: blue;
-    border: 1px solid black;
+   
 }
 
 /* classi di utility*/
@@ -52,3 +48,28 @@ img {
     width: 100%;
     padding: 5px 5px;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    
+    color: white;
+    padding: 0px 10px;
+}
+   
+.btn {
+    
+    background-color: lightgray;
+    color: red;
+    font-weight: 700;
+    border: none;
+    margin-top: 5px;
+}
+
+
+
+   
+   

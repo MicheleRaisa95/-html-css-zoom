@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+background-color: gray;
+padding: 10px 0px;
+height: 75px;
+}
+
+main {
+    height: calc(100vh - 75px);
+    background-color: black;
+}
+
+/*classi di layout*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*classi colonne*/
+.col-14 {
+width:calc(100% / 7);
+background-color: red;
+height: 100px;
+border: 1px solid black;
+}
+
+.col-25 {
+    width: 25%;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.col-50 {
+    width: 50%;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid black;
+}
